@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>THE BAND</title>
+  </head>
+
+  <body>
+    <div id="header" class="header">
+      <a
+        class="hover-button nav-item pad-large"
+        style="position: absolute; right: 0; margin-bottom: 0"
+        href="javascript:void(0)"
+        onclick="myFunction()"
+        ><i class="fa fa-bars"></i
+      ></a>
+      <a href="#" class="nav-item">Home</a>
+      <a href="#band" class="nav-item">Band</a>
+      <a href="#tour" class="nav-item">Tour</a>
+      <a href="#contact" class="nav-item">Contact</a>
+      <div class="dropdown">
+        <a href="#" class="nav-item">
+          More
+          <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-item">
+          <a href="#" class="">Merchandise</a>
+          <a href="#" class="">Extras</a>
+          <a href="#" class="">Media</a>
+        </div>
+      </div>
+      <a id="search-btn" href="#" class="nav-btn">
+        <i class="fa fa-search"></i>
+      </a>
+    </div>
+    <div
+      class="mySlides"
+      style="
+        display: none;
+        background: url('assets/img/bg5.png') top center / cover no-repeat;
+      "
+    >
+      <div class="text-content">
+        <h3 class="text-header">Paris</h3>
+        <div class="text-des">
+          A night-chill walk in the midnight, most splendid place ever seen!
+        </div>
+      </div>
+    </div>
+    <div
+      class="mySlides"
+      style="
+        display: none;
+        background: url('assets/img/bg6.png') top center / cover no-repeat;
+      "
+    >
+      <div class="text-content">
+        <h3 class="text-header">London</h3>
+        <div class="text-des">Places for relax and calm down at evening!</div>
+      </div>
+    </div>
+    <div
+      class="mySlides"
+      style="
+        display: none;
+        background: url('assets/img/bg0.png') top center / cover no-repeat;
+      "
+    >
+      <div class="text-content">
+        <h3 class="text-header">China</h3>
+        <div class="text-des">
+          A picturesque place for artist people to enjoy!
+        </div>
+      </div>
+    </div>
+    <div id="band" class="content">
+      <div class="about">
+        <h2 class="text-header">THE BAND</h2>
+        <p class="text-opacity">We love music</p>
+        <div id="about-desc">
+          We have created a fictional band website. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+        </div>
+      </div>
+      <div class="row go-center pad32" style="max-width: 800px">
+        <div class="col-third">
+          <p>Kaneki Ken</p>
+          <img class="small-img" src="assets/img/mem1.png" alt="" />
+        </div>
+        <div class="col-third">
+          <p>Astar Yuno</p>
+          <img class="small-img" src="assets/img/mem2.png" alt="" />
+        </div>
+        <div class="col-third">
+          <p>Sung Ha</p>
+          <img class="small-img" src="assets/img/mem3.png" alt="" />
+        </div>
+      </div>
+      <div id="tour" class="tour go-black">
+        <div class="container">
+          <h2 class="text-header">TOUR DATES</h2>
+          <p class="text-opacity go-center">Remember to book your tickets!</p>
+          <br />
+          <ul class="go-ul">
+            <li class="w3-padding">
+              September
+              <span class="red-btn margin-left pad-small">Sold out</span>
+            </li>
+            <li>
+              October<span class="red-btn margin-left pad-small">Sold out</span>
+            </li>
+            <li>November<span class="round-btn go-black">3</span></li>
+          </ul>
+          <div class="row pad32" style="margin: 0px -16px">
+            <div class="col-third">
+              <img src="assets/img/bg1.png" alt="" />
+              <div class="container go-white">
+                <p>
+                  <b>New York</b>
+                </p>
+                <p class="text-opacity">Fri 27 Nov 2022</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button
+                  class="go-black go-btn hover-opacity"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
+
+            <div class="col-third">
+              <img src="assets/img/bg2.png" alt="" />
+              <div class="container go-white">
+                <p>
+                  <b>China</b>
+                </p>
+                <p class="text-opacity">Sat 28 Nov 2022</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button
+                  class="go-black go-btn hover-opacity"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
+            <div class="col-third">
+              <img src="assets/img/bg3.png" alt="" />
+              <div class="container go-white">
+                <p>
+                  <b>Viet Nam</b>
+                </p>
+                <p class="text-opacity">Sun 29 Nov 2022</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button
+                  class="go-black go-btn hover-opacity"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <h2 class="text-header">CONTACT</h2>
+        <p class="text-opacity go-center">Fan? Drop a note!</p>
+        <div class="row" style="padding: 32px 0">
+          <div class="col-half" style="font-size: 18px">
+            <i class="fa fa-map-marker" style="width: 30px"></i>
+            <span> Chicago, US </span>
+            <br />
+            <i class="fa fa-phone" style="width: 30px"></i>
+            <span>Phone: +00 151515</span>
+            <br />
+            <i class="fa fa-envelope" style="width: 30px"></i>
+            <span>Email: mail@mail.com </span>
+          </div>
+          <div class="col-half">
+            <form action="/action_page.php" target="_blank">
+              <div class="row" style="margin: 0 -8px 8px">
+                <div class="col-half">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Name"
+                    required
+                    name="Name"
+                  />
+                </div>
+                <div class="col-half">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="Email"
+                    required
+                    name="Email"
+                  />
+                </div>
+              </div>
+              <input
+                class="input"
+                type="text"
+                placeholder="Message"
+                required
+                name="Message"
+              />
+              <button
+                class="go-black go-btn"
+                type="submit"
+                style="float: right; margin: 16px 0"
+              >
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/img/bg4.png" style="width: 100%" />
+    <div class="footer text-opacity go-center">
+      <i class="fa fa-facebook-official hover-opacity"></i>
+      <i class="fa fa-instagram hover-opacity"></i>
+      <i class="fa fa-snapchat hover-opacity"></i>
+      <i class="fa fa-pinterest-p hover-opacity"></i>
+      <i class="fa fa-twitter hover-opacity"></i>
+      <i class="fa fa-linkedin hover-opacity"></i>
+      <p style="margin: 15px 0; font-style: normal; font-size: 15px">
+        Powered by
+        <a
+          style="color: #000"
+          href="https://www.w3schools.com/w3css/default.asp"
+          target="_blank"
+          >w3.css</a
+        >
+      </p>
+    </div>
+    <div id="ticketModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <div class="container go-teal go-center pad32">
+          <span
+            onclick="document.getElementById('ticketModal').style.display='none'"
+            class="go-button hover-button"
+            style="
+              padding: 8px 20px;
+              font-size: 24px;
+              position: absolute;
+              top: 0;
+              right: 0;
+            "
+            >x</span
+          >
+          <h2 class="text-header">
+            <i class="fa fa-suitcase" style="margin-right: 16px"></i>Tickets
+          </h2>
+        </div>
+        <div class="container">
+          <p>
+            <label
+              ><i class="fa fa-shopping-cart"></i> Tickets, $15 per
+              person</label
+            >
+          </p>
+          <input class="input" type="text" placeholder="How many?" />
+          <p>
+            <label><i class="fa fa-user"></i> Send To</label>
+          </p>
+          <input class="input" type="text" placeholder="Enter email" />
+          <br />
+          <button
+            class="go-btn go-teal pad16 hover-button go-section"
+            style="width: 100%; margin: auto"
+          >
+            PAY <i class="fa fa-check"></i>
+          </button>
+          <button
+            class="go-btn red-btn go-section hover-opacity pad16"
+            onclick="document.getElementById('ticketModal').style.display='none'"
+          >
+            Close <i class="fa fa-remove" style="display: inline"></i>
+          </button>
+          <p class="go-right">
+            Need <a href="#" style="color: #2196f3">help?</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 4000);
+      }
+
+      const myFunction = () => {
+        var x = document.getElementById("header");
+        if (x.className.indexOf("expand") == -1) {
+          x.className += " expand";
+        } else {
+          x.className = x.className.replace(" expand", "");
+        }
+      };
+    </script>
+  </body>
+</html>

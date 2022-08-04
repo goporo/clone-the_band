@@ -1,0 +1,46 @@
+/* RESPONSIVE */
+
+@media (min-width: 740px) {
+  div.header > a:first-child {
+    display: none;
+  }
+}
+
+@media (max-width: 739px) {
+  .header {
+    overflow-y: hidden;
+  }
+  .header + a {
+    display: block;
+  }
+  .nav-item {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .text-content {
+    display: none;
+  }
+
+  .col-half {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .col-third {
+    width: 100%;
+  }
+
+  #searc-btn {
+    display: none;
+  }
+
+  .go-btn {
+    width: 100%;
+  }
+
+  .modal-content {
+    max-width: 96%;
+    min-height: 560px;
+  }
+}
